@@ -1,0 +1,7 @@
+---
+applications:
+- name: dpnaik-locomotive-simulator-service
+  memory: 512M 
+  path: target/locomotive-data-simulator-1.2.0.jar
+env:
+    SPRING_PROFILES_ACTIVE : clouddev
